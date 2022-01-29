@@ -1,7 +1,12 @@
-const num1 = 7;
-const num2 = 6;
+// check if the number is positive, negative or zero
+const number = ("Enter a number: ");
 
-const multiply = num1 * num2;
-
-
-console.log(multiply);
+if (number >= 0) {
+    if (number == 0) {
+        console.log("The number is zero");
+    } else {
+        console.log("The number is positive");
+    }
+} else {
+    console.log("The number is negative");
+}
