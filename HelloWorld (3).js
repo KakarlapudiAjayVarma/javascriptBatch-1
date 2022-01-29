@@ -1,9 +1,13 @@
-var num1=15
-var num2=35
-var num3
-  
-num3=num1
-num1=num2
-num2=num3
-console.log(num1)
-console.log(num2)
+// program to check if the number is even or odd
+// take input from the user
+const number = ("Enter a number: ");
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
